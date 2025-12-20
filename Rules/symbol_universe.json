@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-20",
+  "asset_classes": [
+    {
+      "asset_class": "crypto",
+      "label": "Crypto (Spot, USDT-quoted)",
+      "provider": "binance_spot",
+      "symbol_format": "BTCUSDT",
+      "symbols": [
+        {
+          "symbol": "BTCUSDT",
+          "display": "BTC/USDT"
+        },
+        {
+          "symbol": "ETHUSDT",
+          "display": "ETH/USDT"
+        },
+        {
+          "symbol": "BNBUSDT",
+          "display": "BNB/USDT"
+        },
+        {
+          "symbol": "SOLUSDT",
+          "display": "SOL/USDT"
+        },
+        {
+          "symbol": "XRPUSDT",
+          "display": "XRP/USDT"
+        },
+        {
+          "symbol": "ADAUSDT",
+          "display": "ADA/USDT"
+        },
+        {
+          "symbol": "DOGEUSDT",
+          "display": "DOGE/USDT"
+        },
+        {
+          "symbol": "TRXUSDT",
+          "display": "TRX/USDT"
+        },
+        {
+          "symbol": "LINKUSDT",
+          "display": "LINK/USDT"
+        },
+        {
+          "symbol": "LTCUSDT",
+          "display": "LTC/USDT"
+        },
+        {
+          "symbol": "AVAXUSDT",
+          "display": "AVAX/USDT"
+        },
+        {
+          "symbol": "SHIBUSDT",
+          "display": "SHIB/USDT"
+        },
+        {
+          "symbol": "DOTUSDT",
+          "display": "DOT/USDT"
+        },
+        {
+          "symbol": "UNIUSDT",
+          "display": "UNI/USDT"
+        },
+        {
+          "symbol": "TONUSDT",
+          "display": "TON/USDT"
+        },
+        {
+          "symbol": "MATICUSDT",
+          "display": "MATIC/USDT"
+        },
+        {
+          "symbol": "ATOMUSDT",
+          "display": "ATOM/USDT"
+        },
+        {
+          "symbol": "FILUSDT",
+          "display": "FIL/USDT"
+        },
+        {
+          "symbol": "ARBUSDT",
+          "display": "ARB/USDT"
+        },
+        {
+          "symbol": "APTUSDT",
+          "display": "APT/USDT"
+        },
+        {
+          "symbol": "NEARUSDT",
+          "display": "NEAR/USDT"
+        },
+        {
+          "symbol": "ETCUSDT",
+          "display": "ETC/USDT"
+        },
+        {
+          "symbol": "OPUSDT",
+          "display": "OP/USDT"
+        },
+        {
+          "symbol": "INJUSDT",
+          "display": "INJ/USDT"
+        },
+        {
+          "symbol": "IMXUSDT",
+          "display": "IMX/USDT"
+        },
+        {
+          "symbol": "GRTUSDT",
+          "display": "GRT/USDT"
+        },
+        {
+          "symbol": "RNDRUSDT",
+          "display": "RNDR/USDT"
+        },
+        {
+          "symbol": "RUNEUSDT",
+          "display": "RUNE/USDT"
+        },
+        {
+          "symbol": "SANDUSDT",
+          "display": "SAND/USDT"
+        },
+        {
+          "symbol": "AAVEUSDT",
+          "display": "AAVE/USDT"
+        }
+      ]
+    },
+    {
+      "asset_class": "fx",
+      "label": "FX (Major & Liquid Pairs)",
+      "provider": "twelvedata_fx",
+      "symbol_format": "EUR/USD",
+      "symbols": [
+        {
+          "symbol": "EUR/USD",
+          "display": "EUR/USD"
+        },
+        {
+          "symbol": "USD/JPY",
+          "display": "USD/JPY"
+        },
+        {
+          "symbol": "GBP/USD",
+          "display": "GBP/USD"
+        },
+        {
+          "symbol": "USD/CHF",
+          "display": "USD/CHF"
+        },
+        {
+          "symbol": "AUD/USD",
+          "display": "AUD/USD"
+        },
+        {
+          "symbol": "USD/CAD",
+          "display": "USD/CAD"
+        },
+        {
+          "symbol": "NZD/USD",
+          "display": "NZD/USD"
+        },
+        {
+          "symbol": "EUR/JPY",
+          "display": "EUR/JPY"
+        },
+        {
+          "symbol": "GBP/JPY",
+          "display": "GBP/JPY"
+        },
+        {
+          "symbol": "EUR/GBP",
+          "display": "EUR/GBP"
+        },
+        {
+          "symbol": "EUR/CHF",
+          "display": "EUR/CHF"
+        },
+        {
+          "symbol": "EUR/AUD",
+          "display": "EUR/AUD"
+        },
+        {
+          "symbol": "EUR/CAD",
+          "display": "EUR/CAD"
+        },
+        {
+          "symbol": "AUD/JPY",
+          "display": "AUD/JPY"
+        },
+        {
+          "symbol": "CAD/JPY",
+          "display": "CAD/JPY"
+        },
+        {
+          "symbol": "CHF/JPY",
+          "display": "CHF/JPY"
+        },
+        {
+          "symbol": "GBP/AUD",
+          "display": "GBP/AUD"
+        },
+        {
+          "symbol": "GBP/CAD",
+          "display": "GBP/CAD"
+        },
+        {
+          "symbol": "AUD/CAD",
+          "display": "AUD/CAD"
+        },
+        {
+          "symbol": "AUD/NZD",
+          "display": "AUD/NZD"
+        },
+        {
+          "symbol": "NZD/JPY",
+          "display": "NZD/JPY"
+        },
+        {
+          "symbol": "EUR/NZD",
+          "display": "EUR/NZD"
+        },
+        {
+          "symbol": "GBP/CHF",
+          "display": "GBP/CHF"
+        },
+        {
+          "symbol": "CAD/CHF",
+          "display": "CAD/CHF"
+        },
+        {
+          "symbol": "AUD/CHF",
+          "display": "AUD/CHF"
+        },
+        {
+          "symbol": "USD/SEK",
+          "display": "USD/SEK"
+        },
+        {
+          "symbol": "USD/NOK",
+          "display": "USD/NOK"
+        },
+        {
+          "symbol": "USD/MXN",
+          "display": "USD/MXN"
+        },
+        {
+          "symbol": "USD/TRY",
+          "display": "USD/TRY"
+        },
+        {
+          "symbol": "EUR/TRY",
+          "display": "EUR/TRY"
+        }
+      ]
+    }
+  ]
+}

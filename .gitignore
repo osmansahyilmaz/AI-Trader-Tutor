@@ -1,0 +1,43 @@
+# --- Flutter / Dart ---
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter/build/
+coverage/
+*.lock
+*.log
+
+# Flutter local config
+android/local.properties
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets / env ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# --- Supabase local ---
+.supabase/
+supabase/.temp/
+supabase/.branches/
+supabase/.output/
+supabase/.cache/
