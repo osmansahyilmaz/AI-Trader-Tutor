@@ -58,10 +58,13 @@ STYLE:
 - RLS protects access
 
 ## Environment variables (Edge)
+Defined in `.env.example`. Set them using `supabase secrets set --env-file .env`.
+
 - `OPENAI_API_KEY`
-- `DATA_PROVIDER_API_KEY` (if needed)
-- `DATA_PROVIDER_BASE_URL` (optional)
-- `TWELVEDATA_API_KEY` (required for FX provider)
+- `TWELVEDATA_API_KEY`
+- `BINANCE_BASE_URL`
+- `TWELVEDATA_BASE_URL`
+- `SUPABASE_SERVICE_ROLE_KEY` (if needed)
 
 ## Local development
 - Use Supabase CLI:

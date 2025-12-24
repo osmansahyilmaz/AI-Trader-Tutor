@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:ai_trader_tutor/core/constants.dart';
 import 'package:ai_trader_tutor/features/auth/auth_screen.dart';
 import 'package:ai_trader_tutor/features/home/home_screen.dart';
@@ -19,6 +20,7 @@ void main() async {
 
 final _router = GoRouter(
   initialLocation: '/',
+  refreshListenable: GoRouterRefreshStream(Supabase.instance.client.auth.onAuthStateChange),
   routes: [
     GoRoute(
       path: '/',
@@ -30,9 +32,6 @@ final _router = GoRouter(
     ),
   ],
   redirect: (context, state) {
-    // Note: In a real app, you should listen to auth state changes stream
-    // and trigger router refresh. For MVP PR #1, we just check current session.
-    // To make it reactive, we'd need a Riverpod provider watching onAuthStateChange.
     final session = Supabase.instance.client.auth.currentSession;
     final isAuthRoute = state.uri.path == '/auth';
 
@@ -45,6 +44,23 @@ final _router = GoRouter(
     return null;
   },
 );
+
+class GoRouterRefreshStream extends ChangeNotifier {
+  GoRouterRefreshStream(Stream<AuthState> stream) {
+    notifyListeners();
+    _subscription = stream.asBroadcastStream().listen(
+      (dynamic _) => notifyListeners(),
+    );
+  }
+
+  late final StreamSubscription<dynamic> _subscription;
+
+  @override
+  void dispose() {
+    _subscription.cancel();
+    super.dispose();
+  }
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

@@ -40,7 +40,7 @@ STYLE:
 # ui_screens.md — Screen specs (MVP)
 
 Screens:
-1) Auth
+1) Auth (Tabs: Login / Register, Email+Password only)
 2) Home (symbol/timeframe + Explain chart)
 3) Result (4 sections + disclaimer footer)
 4) History (list + details)
